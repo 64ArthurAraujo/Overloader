@@ -1,0 +1,15 @@
+{
+    "name": "overloader.arthuraraujo",
+    "description": "Workout planner that tracks your progressive overload.",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Overloader",
+    "hooks": {
+        "overloader": {
+            "apparmor": "overloader.apparmor",
+            "desktop":  "overloader.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Arthur Araujo <arthur.araujo@tutanota.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
